@@ -1,0 +1,4 @@
+Airline attendant: We are now boarding for
+Group 1 only. | repeat, Group 1 only.
+Someone from Group 6:
+

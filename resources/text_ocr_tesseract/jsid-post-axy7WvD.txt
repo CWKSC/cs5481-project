@@ -1,0 +1,7 @@
+When | spot a single ant in the kitchen:
+
+When the ant spots me:
+
+/
+
+They have a'cave ‘troll!

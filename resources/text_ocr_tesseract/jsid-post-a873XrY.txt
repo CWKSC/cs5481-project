@@ -1,0 +1,15 @@
+30
+
+s “Why Are You Geh?”
+Confronts oppent about its level of gayness.
+a» You Are Geh’
+Changes enemies sexual preference to "Geh”.
+This attack is immune to “Denial”.
+
+100
+
+weakness resistance
+s 9
+
+2
+

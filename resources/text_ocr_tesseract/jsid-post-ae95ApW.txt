@@ -1,0 +1,4 @@
+"Como estuvo tu semana?"
+
+i=
+

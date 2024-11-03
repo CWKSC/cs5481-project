@@ -1,0 +1,12 @@
+We offer a competitive salary. |
+vy Great, how much is it?
+
+1 7
+
+Don't worry about it, it's competitive.
+Anyways, what skills do you have?
+
+rd! >
+Great, can you tell me more about them?
+
+A

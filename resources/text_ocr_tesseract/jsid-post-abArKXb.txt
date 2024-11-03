@@ -1,0 +1,13 @@
+Engineering Flowchart
+
+DOES IT MOVE?
+No Yes
+4 4
+shot? Steven
+f 1 f 1
+No Yes Yes No
+i] |
+
+4
+No = No
+Problem Ns Problem

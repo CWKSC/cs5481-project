@@ -1,0 +1,7 @@
+POTION OF RESIST FIRE
+0.5 60
+heat I Ws
+oe
+DMALSA
+
+EOU 2638/320 o 86)
