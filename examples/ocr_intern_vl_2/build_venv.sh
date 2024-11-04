@@ -6,4 +6,3 @@ python -m pip install --upgrade pip
 
 pip install lmdeploy
 pip install timm
-
