@@ -1,0 +1,1 @@
+person, backpack, street, urban, casual, walking

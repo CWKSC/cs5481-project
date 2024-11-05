@@ -1,0 +1,1 @@
+celebrity, portrait, text, statement

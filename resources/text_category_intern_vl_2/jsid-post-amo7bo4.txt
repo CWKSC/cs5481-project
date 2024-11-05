@@ -1,0 +1,1 @@
+person, character, movie, blue, robe, mask, comparison

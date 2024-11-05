@@ -1,0 +1,1 @@
+doctor, patient, depression, weather, traffic, health consultation, medical advice

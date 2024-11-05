@@ -1,0 +1,1 @@
+car, trailer, road, building, apartment, urban, vehicle, transport, street, residential, winter
