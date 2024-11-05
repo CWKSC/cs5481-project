@@ -1,0 +1,3 @@
+the bowling problem
+you can stop the bowling ball at any time
+or get a really cool strike animation

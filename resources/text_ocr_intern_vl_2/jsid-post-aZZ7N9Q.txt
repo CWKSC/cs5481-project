@@ -1,0 +1,5 @@
+The text visible in the image includes:
+
+- "McDonald's" on the bag held by the character on the right.
+- "McDonald's" on the bag held by the character in the middle.
+- "McDonald's" on the bag held by the character on the left.

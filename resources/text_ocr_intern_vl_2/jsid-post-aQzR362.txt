@@ -1,0 +1,2 @@
+GM: "So do you want a cat or a bat familiar?"
+Wizard: "Yes."

@@ -1,0 +1,20 @@
+Choose your HEROES III class:
+
+Knight
+Cleric
+Barbarian
+Battle mage
+Death knight
+Necromancer
+Ranger
+Druid
+Beastmaster
+Witch
+Demoniac
+Heretic
+Alchemist
+Wizard
+Planeswalker
+Elementalist
+Overlord
+Warlock

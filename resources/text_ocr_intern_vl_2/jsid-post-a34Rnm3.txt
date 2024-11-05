@@ -1,0 +1,6 @@
+OK GUYS
+HEAR ME OUT
+
+POTION OF RESIST FIRE
+WEIGHT 0.5 VALUE 60
+Resist 13% of fire damage for 60 seconds.

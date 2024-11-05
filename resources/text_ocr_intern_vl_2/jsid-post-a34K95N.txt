@@ -1,0 +1,24 @@
+Godot Engine @godotengine - Sep 27
+Apparently game engines are woke now. Well then, we won't complain
+Show us your Wokot games below
+funnygamedev @funnygamedev - Sep 27
+Can you focus on fixing/supporting Bitmap fonts to properly import into your engine first instead of doing this sort of thing it's delaying my project a lot this having to try to fix this with the little documentation you have for
+funnygamedev @funnygamedev
+blocking me for this really mild criticism for something that should be in a 2D engine a while now is making me consider switching to a different engine. There's a proper use of resources and it should be done to fix the engine. There's stuff you have there, not adding new things.
+Godot Engine @godotengine
+You're blocked
+You can't follow or see @godotengine's posts. Learn more
+Beef Boy @BeefBoy_X - Sep 28
+Replying to @Pirat_Nation
+Godot founder also claims to be politically neutral, but hires this individual as a Community Manager
+Nat (she/they) @murderveggie
+Community & Communications @godotengine
+Content Creation is my passion
+Obsessively queer
+twitter.com/murderveggie
+murderveggie@gmail.com
+Munich, Bavaria
+bio.link/murderveggie
+Joined August 2019
+3,565 Following 1,364 Followers
+Followed by GDQuest and Remi Schels

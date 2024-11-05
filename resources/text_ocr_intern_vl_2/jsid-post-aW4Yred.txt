@@ -1,0 +1,6 @@
+Fast travel to Parthia
+Yes
+No
+Place Marker
+
+You cannot fast travel when enemies are nearby.

@@ -1,0 +1,18 @@
+BASIC
+NBS Interviewer
+HP 60
+
+Ninja Pokemon. HT: 43 WT: 91 lbs.
+
+"Why Are You Geh?"
+30
+Confronts opponent about its level of gayness.
+
+"You Are Geh"
+100
+Changes enemies sexual preference to "Geh".
+This attack is immune to "Denial".
+
+weakness
+resistance
+retreat

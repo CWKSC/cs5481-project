@@ -1,0 +1,6 @@
+Enter password
+Wrong
+Wrong
+Wrong
+Reset password
+New password can't be old password

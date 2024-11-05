@@ -1,0 +1,18 @@
+Engineering Flowchart
+
+DOES IT MOVE?
+
+No
+Should it?
+No
+No Problem
+
+Yes
+Should it?
+Yes
+No Problem
+
+Yes
+Should it?
+No
+No Problem

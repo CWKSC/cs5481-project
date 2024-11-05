@@ -1,0 +1,9 @@
+Biology
+"Biology is just applied chemistry"
+"Chemistry is just applied physics"
+"Physics is just applied mathematics"
+"Maths is just applied logic"
+"Logic is just applied thinking"
+"thinking is just applied biology"
+"Always has been"
+Wait, it's all Biology?

@@ -1,0 +1,10 @@
+Notifications
+Your CPU temperature has exceeded 8125°C Prolonged use at this temperature may shorten the CPU's lifespan.
+
+Microsoft.Explorer.Notification
+(48996002-9B03-BFA2-7F54-88989AD54E71)
+
+Sun
+5,778°C
+
+Me:

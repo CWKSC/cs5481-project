@@ -1,0 +1,10 @@
+The image is a world map with various regions colored in different shades of brown, indicating percentages. The legend on the left side of the map shows the following percentage ranges:
+
+- 1-9%
+- 10-19%
+- 20-29%
+- 30-39%
+- 40-49%
+- 50%
+
+The map appears to be showing some form of distribution or prevalence of a particular phenomenon across different regions of the world.

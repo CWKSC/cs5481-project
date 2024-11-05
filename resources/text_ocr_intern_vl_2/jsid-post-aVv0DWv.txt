@@ -1,0 +1,7 @@
+1.2 Klein-Gordon Equation
+
+With Einstein's relation E = √(p²c² + m²c⁴) we see that
+
+∫∫∫ d³p A(p) [ - E²/h² ] e^(-i p²/h²) t = ∫ d³p A(p) [ - p²/h² - m²c⁴/h² ] e^(-i p²/h²) t. (1.4)
+
+ME WHILE READING THIS TEXTBOOK

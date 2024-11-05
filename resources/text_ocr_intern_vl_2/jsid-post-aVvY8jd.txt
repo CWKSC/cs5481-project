@@ -1,0 +1,24 @@
+Sure, here is the text from the image:
+
+**Top Left:**
+```
+waking up
+zzz-what! where am i
+i thought i would be the one operating the lever...
+```
+
+**Top Right:**
+```
+you're in the trolley problem!
+no, that's someone else
+```
+
+**Bottom Left:**
+```
+no, that's someone else
+```
+
+**Bottom Right:**
+```
+no, that's someone else
+```

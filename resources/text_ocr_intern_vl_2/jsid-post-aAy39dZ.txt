@@ -1,0 +1,10 @@
+FREE Wi-Fi
+
+∫[-2, 2] (x^3 cos x + 1/2)√4 - x^2 dx
+
+The Wi-Fi password is the first 10 digits of the answer.
+
+TEKS
+@BADST_TEKS
+
+I'll just turn my data on

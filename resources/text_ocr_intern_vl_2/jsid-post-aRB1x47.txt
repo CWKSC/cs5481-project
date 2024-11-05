@@ -1,0 +1,5 @@
+When you're playing Stronghold DE in 4K on a RTX 4090 with 250+ FPS
+
+GPU: NVIDIA GeForce RTX 4090
+FPS: 288 FPS
+99% FPS: 233 FPS
