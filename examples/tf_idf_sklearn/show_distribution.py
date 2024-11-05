@@ -26,23 +26,59 @@ text_ids = [key for key, _ in key_pair_list]
 # If 'content', the input is expected to be a sequence of items that can be of type string or byte.
 tfidf_vectorizer = TfidfVectorizer(input='content', stop_words='english')
 tfidf_vector = tfidf_vectorizer.fit_transform(content_list)
+feature_names = tfidf_vectorizer.get_feature_names_out()
 
+# TF (Term Frequency)
+tf_vector = tfidf_vectorizer.transform(content_list)
+tf_df = pd.DataFrame(tf_vector.toarray(), index=text_ids, columns=feature_names)
+
+# IDF (Inverse Document Frequency)
+idf_vector = tfidf_vectorizer.idf_
+idf_df = pd.DataFrame(idf_vector, index=feature_names, columns=["IDF"])
+
+# TF-IDF
 tfidf_df = pd.DataFrame(
     tfidf_vector.toarray(), 
     index=text_ids, 
-    columns=tfidf_vectorizer.get_feature_names_out()
+    columns=feature_names
 )
-
-print(tfidf_df)
 
 data = tfidf_vector.toarray().flatten()
 data = data[data > 0]
 
-plt.figure(figsize=(10, 6))
+# TF Distribution
+tf_data = tf_vector.toarray().flatten()
+tf_data = tf_data[tf_data > 0]
+
+plt.figure(figsize=(15, 6))
+
+# TF Histogram
+plt.subplot(1, 3, 1)
+plt.hist(tf_data, bins=100, color='green', alpha=0.7)
+plt.title('TF Score Distribution')
+plt.xlabel('TF Score')
+plt.ylabel('Frequency')
+plt.grid(True)
+
+# IDF Distribution
+idf_data = idf_vector.flatten()
+
+# IDF Histogram
+plt.subplot(1, 3, 2)
+plt.hist(idf_data, bins=100, color='orange', alpha=0.7)
+plt.title('IDF Score Distribution')
+plt.xlabel('IDF Score')
+plt.ylabel('Frequency')
+plt.grid(True)
+
+# TF-IDF Histogram
+plt.subplot(1, 3, 3)
 plt.hist(data, bins=100, color='blue', alpha=0.7)
 plt.title('TF-IDF Score Distribution')
 plt.xlabel('TF-IDF Score')
 plt.ylabel('Frequency')
-plt.yscale('log')
 plt.grid(True)
+
+plt.tight_layout()
 plt.show()
+
