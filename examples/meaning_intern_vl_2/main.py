@@ -6,14 +6,16 @@ import time
 current_folder = pathlib.Path(__file__).parent
 images_folder = current_folder / "images"
 
-model = "OpenGVLab/InternVL2-2B"
+prompt = "what is the meaning of this image"
+
+model = "OpenGVLab/InternVL2-8B"
 pipe = pipeline(model, backend_config=TurbomindEngineConfig(session_len=8192))
 
 start_time = time.time()
 for image_path in images_folder.iterdir():
     path = image_path.resolve().as_posix()
     image = load_image(path)
-    response = pipe(("what is the meaning of this image", image))
+    response = pipe((prompt, image))
     print(response.text)
     with open(f"meaning_intern_vl_2/{image_path.stem}.txt", "w") as f:
         f.write(response.text)
