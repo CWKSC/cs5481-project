@@ -1,10 +1,10 @@
-from util.read_tsv import read_tsv
 import pathlib
 from nltk.corpus import stopwords
 import nltk
 import string
 from nltk.corpus import words
 
+nltk.download("stopwords")
 nltk.download("punkt_tab")
 nltk.download("words")
 
@@ -37,15 +37,13 @@ print(filtered_tokens)
 print(len(filtered_tokens))
 print()
 
-# Remove punctuation
-filtered_tokens = [word for word in filtered_tokens if word not in string.punctuation]
-
-# Filter by str.isalnum()
-filtered_tokens = [word for word in filtered_tokens if word.isalnum()]
-
 # Filter by word in nltk.words
 filtered_tokens = [word for word in filtered_tokens if word in words.words()]
 
 print("Final:")
 print(filtered_tokens)
 print(len(filtered_tokens))
+
+with open("final.txt", "w", encoding="utf-8") as file:
+    file.write("\n".join(filtered_tokens))
+
