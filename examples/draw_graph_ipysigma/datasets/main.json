@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "label": "Node 1",
+            "url": "https://en.wikipedia.org/wiki/Cat",
+            "category": ["cat", "dog", "bird", "fish", "horse"]
+        },
+        {
+            "id": "2",
+            "label": "Node 2",
+            "url": "https://en.wikipedia.org/wiki/Dog",
+            "category": ["cat", "dog"]
+        },
+        {
+            "id": "3",
+            "label": "Node 3",
+            "url": "https://en.wikipedia.org/wiki/Bird",
+            "category": ["bird"]
+        },
+        {
+            "id": "4",
+            "label": "Node 4",
+            "url": "https://en.wikipedia.org/wiki/Fish",
+            "category": ["fish", "horse"]
+        },
+        {
+            "id": "5",
+            "label": "Node 5",
+            "url": "https://en.wikipedia.org/wiki/Horse",
+            "category": ["horse", "cat", "dog"]
+        },
+        {
+            "id": "6",
+            "label": "Node 6",
+            "url": "https://en.wikipedia.org/wiki/Dog",
+            "category": ["dog", "bird"]
+        }
+    ]
+}
