@@ -1,10 +1,8 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 import pathlib
 import json
 import matplotlib.pyplot as plt
-import numpy as np
 
 current_folder = pathlib.Path(__file__).parent.resolve()
 root_folder = current_folder.parent.parent
@@ -29,47 +27,22 @@ text_ids = [key for key, _ in key_pair_list]
 tfidf_vectorizer = TfidfVectorizer(input='content', stop_words='english')
 tfidf_vector = tfidf_vectorizer.fit_transform(content_list)
 
-feature_names = tfidf_vectorizer.get_feature_names_out()
-
-# TF (Term Frequency)
-tf_vector = tfidf_vectorizer.transform(content_list)
-tf_df = pd.DataFrame(tf_vector.toarray(), index=text_ids, columns=feature_names)
-print("TF:")
-print(tf_df.head(3))
-
-# IDF (Inverse Document Frequency)
-idf_vector = tfidf_vectorizer.idf_
-idf_df = pd.DataFrame(idf_vector, index=feature_names, columns=["IDF"])
-print("IDF:")
-print(idf_df.head(3))
-
-# TF-IDF
 tfidf_df = pd.DataFrame(
     tfidf_vector.toarray(), 
     index=text_ids, 
-    columns=feature_names
+    columns=tfidf_vectorizer.get_feature_names_out()
 )
-print("TF-IDF:")
-print(tfidf_df.head(3))
 
-threshold = 0.5
+print(tfidf_df)
 
-result = {}
-for i, id in enumerate(text_ids):
-    tf_idf = tfidf_df.loc[id]
-    tf_idf = tf_idf[tf_idf != 0]
-    # if "image" in tf_idf.index:
-    #     print(tf_idf)
-    if id == "jsid-post-aXPxzVd":
-        print("TF: ", tf_df.loc[id]["image"])
-        print("IDF: ", idf_df.loc["image"])
-        print("TF-IDF: ", tf_idf["image"])
-    tf_idf = tf_idf[tf_idf > threshold]
-    # mean = words.mean()
-    # filtered_indices = words[words >= mean]
-    result[id] = tf_idf.index.tolist()
+data = tfidf_vector.toarray().flatten()
+data = data[data > 0]
 
-# Save to file
-with open(output_file, "w") as file:
-    json.dump(result, file, indent=4)
-
+plt.figure(figsize=(10, 6))
+plt.hist(data, bins=100, color='blue', alpha=0.7)
+plt.title('TF-IDF Score Distribution')
+plt.xlabel('TF-IDF Score')
+plt.ylabel('Frequency')
+plt.yscale('log')
+plt.grid(True)
+plt.show()
