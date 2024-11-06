@@ -32,7 +32,7 @@ for node in nodes:
                 edges.append((node['id'], neighbor['id']))
 print(edges)
 
-DG = nx.DiGraph()
+DG = nx.Graph()
 [DG.add_edge(*tuple(edge)) for edge in edges]
 
 attrs_dict = {}

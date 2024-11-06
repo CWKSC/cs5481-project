@@ -23,7 +23,7 @@ for node in nodes:
             if set(node['category']) & set(neighbor['category']):
                 edges.append((node['id'], neighbor['id']))
 
-DG = nx.DiGraph()
+DG = nx.Graph()
 [DG.add_edge(*tuple(edge)) for edge in edges]
 
 attrs_dict = {}
