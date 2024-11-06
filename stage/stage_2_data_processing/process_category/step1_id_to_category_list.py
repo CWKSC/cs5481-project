@@ -1,22 +1,30 @@
+from nltk import pos_tag
+from nltk.corpus import stopwords, wordnet
+from nltk.stem import WordNetLemmatizer
+from tqdm import tqdm
 import json
+import nltk
 import pathlib
 import re
-from tqdm import tqdm
 import string
-import nltk
-from nltk.corpus import stopwords
-
-nltk.download("stopwords")
 
 current_folder = pathlib.Path(__file__).parent.resolve()
 root_folder = current_folder.parent.parent.parent
-resources_folder = root_folder / "resources"
-json_folder = resources_folder / "json"
+category_folder = root_folder / "resources" / "json" / "category"
 
-input_json = json_folder / "text_category_intern_vl_2.json"
-output_json = json_folder / "id_to_category_list.json"
+# Input and output
+input_json = category_folder / "step0_id_to_category_text.json"
+output_json = category_folder / "step1_id_to_category_list.json"
 
-specific_exclusions = ["#tags#"]
+# Specific exclusions and transformations
+specific_exclusions = ["#tags#", "text"]
+specific_transformations = {"memes": "meme", "cats": "cat"}
+
+# Download stopwords and lemmatizer
+nltk.download("stopwords")
+nltk.download("averaged_perceptron_tagger_eng")
+nltk.download("wordnet")
+lemmatizer = WordNetLemmatizer()
 
 with open(input_json, "r") as file:
     data = json.load(file)
@@ -45,9 +53,6 @@ for key, value in tqdm(data.items(), total=len(data)):
     # Remove empty strings
     values = filter(lambda x: x != "", values)
 
-    # Remove specific exclusions like "#tags#"
-    values = filter(lambda x: x not in specific_exclusions, values)
-
     # Remove duplicates
     values = list(set(values))
 
@@ -58,6 +63,40 @@ for key, value in tqdm(data.items(), total=len(data)):
 
     # Remove stopwords
     values = filter(lambda x: x not in stopwords.words("english"), values)
+
+    # Remove specific exclusions like "#tags#"
+    values = filter(lambda x: x not in specific_exclusions, values)
+
+    # Apply specific transformations
+    def apply_specific_transformations(x):
+        if x in specific_transformations:
+            return specific_transformations[x]
+        return x
+
+    values = map(apply_specific_transformations, values)
+
+    # Reference: https://www.cnblogs.com/jclian91/p/9898511.html
+    def get_wordnet_pos(tag: str):
+        if tag.startswith("J"):
+            return wordnet.ADJ
+        elif tag.startswith("V"):
+            return wordnet.VERB
+        elif tag.startswith("N"):
+            return wordnet.NOUN
+        elif tag.startswith("R"):
+            return wordnet.ADV
+        else:
+            return None
+
+    # Lemmatize
+    def lemmatize_word(word: str):
+        tag = nltk.pos_tag([word])[0][1][0].upper()
+        wn_tag = get_wordnet_pos(tag)
+        if wn_tag is None:
+            return word
+        return lemmatizer.lemmatize(word, wn_tag)
+
+    values = map(lemmatize_word, values)
 
     # Remove duplicates again
     values = set(values)

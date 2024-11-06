@@ -1,17 +1,13 @@
+from tqdm import tqdm
 import json
 import pathlib
-from tqdm import tqdm
-import nltk
-
-nltk.download("stopwords")
 
 current_folder = pathlib.Path(__file__).parent.resolve()
 root_folder = current_folder.parent.parent.parent
-resources_folder = root_folder / "resources"
-json_folder = resources_folder / "json"
+category_folder = root_folder / "resources" / "json" / "category"
 
-input_json = json_folder / "id_to_category_list.json"  # Changed input to the output of step 1
-output_json = json_folder / "category_to_id_list.json"  # New output file
+input_json = category_folder / "step1_id_to_category_list.json"
+output_json = category_folder / "step2_category_to_id_list.json"
 
 with open(input_json, "r") as file:
     data = json.load(file)
@@ -27,5 +23,3 @@ for key, values in tqdm(data.items(), total=len(data)):
 
 with open(output_json, "w") as file:
     json.dump(result, file, indent=4)
-
-
