@@ -1,4 +1,0 @@
-"Cucumber lowers stress levels."
-
-Me:
-

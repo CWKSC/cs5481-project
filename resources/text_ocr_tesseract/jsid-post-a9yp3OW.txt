@@ -1,6 +1,0 @@
-Me: tests negative
-The person doing my IQ test:
-
-iqtester
--ORG
-

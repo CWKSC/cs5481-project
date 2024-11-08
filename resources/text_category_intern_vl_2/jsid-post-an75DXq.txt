@@ -1,1 +1,0 @@
-cat, pet, indoors, table, window, chair, domestic, cute, animal

@@ -1,1 +1,0 @@
-artifact, card, quote, design, handheld, text, vintage, circular, message

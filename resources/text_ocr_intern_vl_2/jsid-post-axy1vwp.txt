@@ -1,4 +1,0 @@
-The text visible in the image includes:
-
-- "Pepsi"
-- "Coca-Cola"

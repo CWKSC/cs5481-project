@@ -1,7 +1,0 @@
-me: *try to insert a USB*
-
-the USB:
-
-oul ‘119A
-
-Well, lo And yes

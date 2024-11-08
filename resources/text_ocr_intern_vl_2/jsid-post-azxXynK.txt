@@ -1,6 +1,0 @@
-The text in the image reads:
-
-- Top left: "Squish"
-- Top right: "Mini Bubbles"
-- Bottom left: "Squish"
-- Bottom right: "Mini Bubbles"

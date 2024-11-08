@@ -1,1 +1,0 @@
-hospital, doctor, patient, consultation, medical, healthcare, indoor, office, meeting

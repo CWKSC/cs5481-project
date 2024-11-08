@@ -1,4 +1,0 @@
-Interviewer: What's your name?
-Me: Hired.
-Interviewer: You're Hired?
-Me: Thank you, sir.

@@ -1,1 +1,0 @@
-poison, danger, warning, caution, harmful, relationships, advice

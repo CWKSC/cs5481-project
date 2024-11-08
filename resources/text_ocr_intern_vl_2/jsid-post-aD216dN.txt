@@ -1,6 +1,0 @@
-The text on the screen is:
-
-```
-HOME 7
-AWAY 0
-```

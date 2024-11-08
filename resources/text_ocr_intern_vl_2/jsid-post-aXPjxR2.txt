@@ -1,5 +1,0 @@
-Top image text:
-- "IHOP"
-
-Bottom image text:
-- "Pack your things, we're leaving"

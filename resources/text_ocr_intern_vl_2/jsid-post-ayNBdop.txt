@@ -1,3 +1,0 @@
-School: 2+2 = 4
-Homework: 2+3+4 = 9
-Exam: David has 4 apples, his train is 7 minutes early, calculate mass of the sun.

@@ -1,3 +1,0 @@
-When they don't care about rust and are starting to code even new projects with C++
-
-Rust Enthusiasts:

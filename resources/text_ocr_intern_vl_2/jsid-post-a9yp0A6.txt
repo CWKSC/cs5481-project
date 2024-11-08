@@ -1,9 +1,0 @@
-Duration of the days of the week, explained with the golden ratio.
-
-Monday
-Tuesday
-Wednesday
-Thursday
-Friday
-Saturday
-Sunday

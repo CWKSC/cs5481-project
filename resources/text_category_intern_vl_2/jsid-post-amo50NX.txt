@@ -1,1 +1,0 @@
-person, pet, store, shopping, dog, cat, jacket, camouflage, text, humor

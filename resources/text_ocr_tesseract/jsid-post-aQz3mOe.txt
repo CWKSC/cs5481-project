@@ -1,7 +1,0 @@
-Farmer: *Grows and harvests the food
-
-Truck driver: *Drives for miles to deliver the food
-Chef: *Creates and prepares the food
-
-The waiter after walking 10 feet with the food:
-

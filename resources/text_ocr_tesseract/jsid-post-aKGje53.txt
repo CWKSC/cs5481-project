@@ -1,7 +1,0 @@
-size 3-a y 7104
-100° POLYESTER
-
-val KA
-
-REMOVE CHILD
-

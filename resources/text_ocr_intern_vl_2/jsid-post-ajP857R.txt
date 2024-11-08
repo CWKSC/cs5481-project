@@ -1,7 +1,0 @@
-Parents: *Works hard to give kids a better life*
-Kids: *Have better Life*
-Parents: You kids have it so easy today. When I was your age...
-Kids:
-
-Hold on.
-This whole operation was your idea.

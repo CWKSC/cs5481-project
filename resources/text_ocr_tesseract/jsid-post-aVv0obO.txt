@@ -1,5 +1,0 @@
-me: *puts item in the bagging area*
-
-robot: "PLEASE PLACE ITEM IN THE
-BAGGING AREA"
-

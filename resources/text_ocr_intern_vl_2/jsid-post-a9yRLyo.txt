@@ -1,9 +1,0 @@
-The text visible in the image includes:
-
-- "OPEN"
-- "HOURS"
-- "MON - FRI 7AM - 11PM"
-- "SAT 7AM - 11PM"
-- "SUN 8AM - 10PM"
-
-Additionally, there is a small sign with a yellow background and black text, but the text is not clearly legible.

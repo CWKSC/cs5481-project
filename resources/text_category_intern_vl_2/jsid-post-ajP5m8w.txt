@@ -1,1 +1,0 @@
-Accident, Damage, Car, Men, Casualties, Injury, Emergency, Road, Safety, Investigation

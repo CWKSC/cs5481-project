@@ -1,8 +1,0 @@
-Engineers
-"I made this highly precise and comprehensive technical blueprint so you know 'exactly' how this works"
-
-Physicists
-"It doesn't actually look like this, we're just simplifying the mathematical structure to make it easier for you to understand"
-
-Mathematicians
-"This is a subset. I drew it like this so you wouldn't get any information from it. I've got no idea what's inside it - functions, words, bugs. Please stop asking it really doesn't matter. The red arrow represents a morphism"

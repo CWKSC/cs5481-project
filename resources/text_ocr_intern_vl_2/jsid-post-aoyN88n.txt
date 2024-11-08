@@ -1,4 +1,0 @@
-The text in the image is:
-
-- "!!" (appears twice, in the top right and bottom right panels)
-- "!!" (appears twice, in the bottom left and bottom right panels)

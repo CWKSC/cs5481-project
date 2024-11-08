@@ -1,1 +1,0 @@
-image, text, red, blue, green, yellow, black, white, bird, hat, pattern, color

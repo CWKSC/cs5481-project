@@ -1,4 +1,0 @@
-The image contains the following text:
-
-- "M" on the hat of the character in the foreground.
-- "P" on the hat of the character in the background.

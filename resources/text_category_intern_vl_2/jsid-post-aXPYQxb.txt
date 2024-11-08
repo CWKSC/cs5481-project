@@ -1,1 +1,0 @@
-mask, face, quote, emotion, nostalgia, modern, audience

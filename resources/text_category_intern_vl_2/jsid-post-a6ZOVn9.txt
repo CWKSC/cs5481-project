@@ -1,1 +1,0 @@
-car, motorcycle, 10,000 dollars, comparison, lifestyle, transportation, choice

@@ -1,3 +1,0 @@
-MacOS requirements:
-Windows requirements:
-Linux requirements:

@@ -1,8 +1,0 @@
-The text visible in the image includes:
-
-- "Coca-Cola" on the soda bottle
-- "Sprite" on the soda bottle
-- "Sprite" on the soda bottle cap
-- "Sprite" on the soda bottle cap
-
-There is also some text on the television screen in the background, but it is not clear enough to read accurately.

@@ -1,5 +1,0 @@
-Therapist: "There will always be a
-light in the end of the tunnel"
-
-light:
-

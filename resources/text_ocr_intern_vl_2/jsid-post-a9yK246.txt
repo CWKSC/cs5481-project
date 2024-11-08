@@ -1,8 +1,0 @@
-WOMEN:
-Hair
-Face
-Body
-Feet
-
-MEN:
-Did I wipe my ass with this side?

@@ -1,6 +1,0 @@
-The text in the image reads:
-
-Top left: "0"
-Top right: "91 500 20/20"
-Bottom left: "100"
-Bottom right: "100"

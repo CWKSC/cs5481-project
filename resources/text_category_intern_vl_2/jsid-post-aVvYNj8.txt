@@ -1,8 +1,0 @@
-#Tags#
-- Phone Alert
-- Security Warning
-- Unauthorized Access
-- Facial Recognition
-- Digital Security
-- Notification
-- Alert Message

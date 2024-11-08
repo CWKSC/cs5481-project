@@ -1,1 +1,0 @@
-cat, domestic, indoor, pet, animal

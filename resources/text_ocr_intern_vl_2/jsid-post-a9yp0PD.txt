@@ -1,1 +1,0 @@
-Tries to flip a coin for a decision

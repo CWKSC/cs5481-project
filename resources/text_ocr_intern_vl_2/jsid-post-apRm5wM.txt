@@ -1,5 +1,0 @@
-The text visible in the image includes:
-
-- "VENUE"
-- "ONE"
-- "ICC"

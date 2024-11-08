@@ -1,8 +1,0 @@
-Teacher: The homework will be easy
-HOMework: 
-
-The answer is two zero and two four
-A: 0044
-B: 2044
-C: 2024
-D: 0024

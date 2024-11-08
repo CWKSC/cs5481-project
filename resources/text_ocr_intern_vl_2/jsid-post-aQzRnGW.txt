@@ -1,7 +1,0 @@
-The text in the image reads:
-
-- 22
-- 21
-- 31
-- Plan A
-- Plan B

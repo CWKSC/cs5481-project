@@ -1,4 +1,0 @@
-Teacher: "We finished taking notes?"
-Class: "No!"
-Teacher: *Rubs board anyway*
-

@@ -1,8 +1,0 @@
-iPhone x
-iPhone y
-iPhone y=x
-iPhone y=x^2
-iPhone y=x^3
-iPhone y=e^x
-iPhone y=sinx
-iPhone y=(x-h)^2+(y-k)^2=r^2
