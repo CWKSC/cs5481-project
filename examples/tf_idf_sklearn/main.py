@@ -7,8 +7,8 @@ current_folder = pathlib.Path(__file__).parent.resolve()
 root_folder = current_folder.parent.parent
 resources_folder = root_folder / "resources"
 
-input_json = resources_folder / "json" / "text_description_llama_3_2_vision.json"
-output_file = current_folder / "tf_idf_text_description_llama_3_2_vision.json"
+input_json = resources_folder / "json" / "description" / "id_to_description.json"
+output_file = current_folder / "tf_idf_description.json"
 
 with open(input_json, "r", encoding="utf-8") as file:
     json_dict = json.load(file)
