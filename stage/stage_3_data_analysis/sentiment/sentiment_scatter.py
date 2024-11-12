@@ -28,9 +28,6 @@ df['Sentiment Category'] = pd.cut(df['Sentiment Score'],
                                    bins=[-float('inf'), -0.1, 0.1, float('inf')],
                                    labels=['Negative', 'Neutral', 'Positive'])
 
-# Calculate the average number of upvotes
-average_upvotes = df['Number of Upvotes'].mean()
-
 # Create subplots
 fig, axs = plt.subplots(1, 3, figsize=(18, 6), sharey=True)
 
@@ -45,8 +42,12 @@ for ax, category in zip(axs, ['Negative', 'Neutral', 'Positive']):
     ax.set_title(f'{category} Sentiment')
     ax.set_xlabel('Number of Upvotes')
     ax.axhline(0, color='black', linewidth=0.8, linestyle='--')  # Add a horizontal line at y=0
-    ax.axvline(average_upvotes, color='blue', linestyle='--', linewidth=1, label='Average Upvotes')  # Average upvotes line
     ax.grid()
+
+# Set the x-axis limits for all subplots
+x_limits = (df['Number of Upvotes'].min(), df['Number of Upvotes'].max())
+for ax in axs:
+    ax.set_xlim(x_limits)
 
 # Set the y-label for the shared y-axis
 axs[0].set_ylabel('Sentiment Score')
@@ -54,3 +55,4 @@ axs[0].set_ylabel('Sentiment Score')
 # Adjust layout
 plt.tight_layout()
 plt.savefig('scatter.png')  # Save the plot as an image
+plt.show()  # Optional: display the plot

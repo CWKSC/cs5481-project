@@ -29,7 +29,10 @@ df['Sentiment Category'] = pd.cut(df['Sentiment Score'],
 
 # Calculate standard deviation for each sentiment category
 std_devs = df.groupby('Sentiment Category')['Number of Upvotes'].std()
+mean_upvotes = df.groupby('Sentiment Category')['Number of Upvotes'].mean()
 
 # Print standard deviations
 print("Standard Deviations for Number of Upvotes:")
 print(std_devs)
+print("\nMean Number of Upvotes:")
+print(mean_upvotes)

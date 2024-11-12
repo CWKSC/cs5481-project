@@ -2,7 +2,6 @@ import nltk
 nltk.download('vader_lexicon')
 nltk.download("words")
 nltk.download("stopwords")
-nltk.download('vader_lexicon')
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk.corpus import stopwords
 from nltk.corpus import words
@@ -10,7 +9,6 @@ from util.core.data_storage import read_data_grid
 import json
 import pathlib
 from tqdm import tqdm
-import logging
 
 words = set(words.words())
 stop_words = set(stopwords.words("english"))
